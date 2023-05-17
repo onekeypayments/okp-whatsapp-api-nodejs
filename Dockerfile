@@ -1,4 +1,4 @@
-FROM node:19-alpine
+FROM public.ecr.aws/docker/library/node:19.9.0-alpine
 
 ARG _WORKDIR=/home/node/app
 ARG PORT=3333
